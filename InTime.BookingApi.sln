@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InTime.BookingApi", "InTime.BookingApi\InTime.BookingApi.csproj", "{545CCFAB-A512-432B-AB5F-67E007E01E33}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InTime.Booking.Api", "InTime.BookingApi\InTime.Booking.Api.csproj", "{545CCFAB-A512-432B-AB5F-67E007E01E33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InTime.Booking.Domain", "InTime.Booking.Domain\InTime.Booking.Domain.csproj", "{F3D7BE0A-8A79-43C4-942B-89864DA18AF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{545CCFAB-A512-432B-AB5F-67E007E01E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{545CCFAB-A512-432B-AB5F-67E007E01E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{545CCFAB-A512-432B-AB5F-67E007E01E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3D7BE0A-8A79-43C4-942B-89864DA18AF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3D7BE0A-8A79-43C4-942B-89864DA18AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3D7BE0A-8A79-43C4-942B-89864DA18AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3D7BE0A-8A79-43C4-942B-89864DA18AF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

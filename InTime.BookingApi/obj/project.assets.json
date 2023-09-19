@@ -474,9 +474,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\qayum\\source\\repos\\InTime.BookingApi\\InTime.BookingApi\\InTime.BookingApi.csproj",
-      "projectName": "InTime.BookingApi",
-      "projectPath": "C:\\Users\\qayum\\source\\repos\\InTime.BookingApi\\InTime.BookingApi\\InTime.BookingApi.csproj",
+      "projectUniqueName": "C:\\Users\\qayum\\source\\repos\\InTime.BookingApi\\InTime.BookingApi\\InTime.Booking.Api.csproj",
+      "projectName": "InTime.Booking.Api",
+      "projectPath": "C:\\Users\\qayum\\source\\repos\\InTime.BookingApi\\InTime.BookingApi\\InTime.Booking.Api.csproj",
       "packagesPath": "C:\\Users\\qayum\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\qayum\\source\\repos\\InTime.BookingApi\\InTime.BookingApi\\obj\\",
       "projectStyle": "PackageReference",
