@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InTime.Booking.Api", "InTime.BookingApi\InTime.Booking.Api.csproj", "{545CCFAB-A512-432B-AB5F-67E007E01E33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InTime.Booking.Api", "InTime.BookingApi\InTime.Booking.Api.csproj", "{545CCFAB-A512-432B-AB5F-67E007E01E33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InTime.Booking.Domain", "InTime.Booking.Domain\InTime.Booking.Domain.csproj", "{F3D7BE0A-8A79-43C4-942B-89864DA18AF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InTime.Booking.Domain", "InTime.Booking.Domain\InTime.Booking.Domain.csproj", "{F3D7BE0A-8A79-43C4-942B-89864DA18AF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InTime.Booking.Application", "InTime.Booking.Application\InTime.Booking.Application.csproj", "{388F484D-11A5-4E3A-A800-CF3F4EFDCCC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InTime.Booking.Infrastructure", "InTime.Booking.Infrastructure\InTime.Booking.Infrastructure.csproj", "{1012F85A-15D9-414A-9662-41B81B50082A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{F3D7BE0A-8A79-43C4-942B-89864DA18AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3D7BE0A-8A79-43C4-942B-89864DA18AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3D7BE0A-8A79-43C4-942B-89864DA18AF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{388F484D-11A5-4E3A-A800-CF3F4EFDCCC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{388F484D-11A5-4E3A-A800-CF3F4EFDCCC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{388F484D-11A5-4E3A-A800-CF3F4EFDCCC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{388F484D-11A5-4E3A-A800-CF3F4EFDCCC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1012F85A-15D9-414A-9662-41B81B50082A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1012F85A-15D9-414A-9662-41B81B50082A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1012F85A-15D9-414A-9662-41B81B50082A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1012F85A-15D9-414A-9662-41B81B50082A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
