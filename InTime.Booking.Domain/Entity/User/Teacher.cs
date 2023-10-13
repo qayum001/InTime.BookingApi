@@ -5,12 +5,12 @@ namespace InTime.Booking.Domain.Entity.User
 {
     public class Teacher : BaseUser
     {
-        public List<Faculty> Faculties { get; } = new List<Faculty>();
+        public ICollection<Faculty> Faculties { get; } = new List<Faculty>();
         public Teacher(Guid id,
             string name,
-            string email) : base(id, name, email)
+            string email, AuthComponent authComponent) : base(id, name, email, authComponent)
         {
-
+            this.AddRole(Enum.Role.STAFF);
         }
     }
 }

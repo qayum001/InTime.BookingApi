@@ -1,0 +1,11 @@
+C:\Users\qayum\source\repos\InTime.BookingApi\InTime.Booking.Domain\bin\Debug\net7.0\InTime.Booking.Domain.deps.json
+C:\Users\qayum\source\repos\InTime.BookingApi\InTime.Booking.Domain\bin\Debug\net7.0\InTime.Booking.Domain.dll
+C:\Users\qayum\source\repos\InTime.BookingApi\InTime.Booking.Domain\bin\Debug\net7.0\InTime.Booking.Domain.pdb
+C:\Users\qayum\source\repos\InTime.BookingApi\InTime.Booking.Domain\obj\Debug\net7.0\InTime.Booking.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qayum\source\repos\InTime.BookingApi\InTime.Booking.Domain\obj\Debug\net7.0\InTime.Booking.Domain.AssemblyInfoInputs.cache
+C:\Users\qayum\source\repos\InTime.BookingApi\InTime.Booking.Domain\obj\Debug\net7.0\InTime.Booking.Domain.AssemblyInfo.cs
+C:\Users\qayum\source\repos\InTime.BookingApi\InTime.Booking.Domain\obj\Debug\net7.0\InTime.Booking.Domain.csproj.CoreCompileInputs.cache
+C:\Users\qayum\source\repos\InTime.BookingApi\InTime.Booking.Domain\obj\Debug\net7.0\InTime.Booking.Domain.dll
+C:\Users\qayum\source\repos\InTime.BookingApi\InTime.Booking.Domain\obj\Debug\net7.0\refint\InTime.Booking.Domain.dll
+C:\Users\qayum\source\repos\InTime.BookingApi\InTime.Booking.Domain\obj\Debug\net7.0\InTime.Booking.Domain.pdb
+C:\Users\qayum\source\repos\InTime.BookingApi\InTime.Booking.Domain\obj\Debug\net7.0\ref\InTime.Booking.Domain.dll

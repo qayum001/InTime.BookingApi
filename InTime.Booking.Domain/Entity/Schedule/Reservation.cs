@@ -6,11 +6,8 @@ using InTime.Booking.Domain.Enum;
 
 namespace InTime.Booking.Domain.Entity.Schedule
 {
-    public class Reservation : BaseEntity
+    public class Reservation : ScheduleBaseEntity
     {
-        public TimeSlot TimeSlot { get; private set; }
-        public Audience Audience { get; private set; }
-        public Guid AudienceId { get; private set; }
         public BaseUser User { get; private set; }
         public Guid UserId { get; private set; }
         public string Description { get; private set; }
@@ -22,26 +19,38 @@ namespace InTime.Booking.Domain.Entity.Schedule
             TimeSlot slot,
             BaseUser user,
             Audience audience,
-            string description) : base(id, name)
+            string description) : base(id, name, slot, audience, Enum.Type.RESERVATION)
         {
-            TimeSlot = slot
-                ?? throw new ArgumentNullException(nameof(TimeSlot), "TimeSlot can not be null");
             User = user
                 ?? throw new ArgumentNullException(nameof(User), "User can not be null");
             UserId = user.Id;
 
-            Audience = audience
-                ?? throw new ArgumentNullException(nameof(Audience), "Audience can not be null");
-            AudienceId = audience.Id;
-
             Description = string.IsNullOrEmpty(description) 
                 ? throw new ArgumentNullException(nameof(Description), "Description can not be null or empty") : description;
+
+            ReservationStatus = ReservationStatus.Pending;
         }
 
         public Task<Response> Approve(Guid approverId)
         {
-            if (Appre)
+            if (approverId == Guid.Empty)
+                return Task.FromResult(new Response(false, "Guid can not be empty"));
+
+            ReservationStatus = ReservationStatus.Approved;
             ApprovedAdminId = approverId;
+
+            return Task.FromResult(new Response(true, "Approved admin guid is set"));
+        }
+
+        public Task<Response> Deny(Guid approverId) {
+         ReservationStatus = ReservationStatus.Approved;
+            if (approverId == Guid.Empty)
+                return Task.FromResult(new Response(false, "Guid can not be empty"));
+
+            ReservationStatus = ReservationStatus.Approved;
+            ApprovedAdminId = approverId;
+
+            return Task.FromResult(new Response(true, "Denied admin guid is set"));
         }
     }
 }

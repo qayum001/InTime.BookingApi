@@ -1,8 +1,30 @@
 {
   "version": 2,
-  "dgSpecHash": "4iRhkLrBICl81gURjqO8vL2PCga1sImZtsQSsLQ/ixlQkVz0lhaRghkpec0c/nAmHpK6phPlBRgiX+19lGdL5Q==",
+  "dgSpecHash": "hiVhnDD1mOrjstPvi6CJ8sdI8McWBbwfQbQR8wI/wh65dgbNd/RTZJQreg8gB4NN45ihMGY6/OIAB7Agd2PQjw==",
   "success": true,
   "projectFilePath": "C:\\Users\\qayum\\source\\repos\\InTime.BookingApi\\InTime.Booking.Application\\InTime.Booking.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\qayum\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.12\\microsoft.aspnetcore.authentication.jwtbearer.7.0.12.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.2\\microsoft.identitymodel.abstractions.7.0.2.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.0.2\\microsoft.identitymodel.jsonwebtokens.7.0.2.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.2\\microsoft.identitymodel.logging.7.0.2.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.15.1\\microsoft.identitymodel.protocols.6.15.1.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.15.1\\microsoft.identitymodel.protocols.openidconnect.6.15.1.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.2\\microsoft.identitymodel.tokens.7.0.2.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.5.0\\swashbuckle.aspnetcore.annotations.6.5.0.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.0.2\\system.identitymodel.tokens.jwt.7.0.2.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

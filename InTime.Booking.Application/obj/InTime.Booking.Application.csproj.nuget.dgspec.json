@@ -27,6 +27,83 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\qayum\\source\\repos\\InTime.BookingApi\\InTime.Booking.Domain\\InTime.Booking.Domain.csproj": {
+                "projectPath": "C:\\Users\\qayum\\source\\repos\\InTime.BookingApi\\InTime.Booking.Domain\\InTime.Booking.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\qayum\\source\\repos\\InTime.BookingApi\\InTime.Booking.Domain\\InTime.Booking.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\qayum\\source\\repos\\InTime.BookingApi\\InTime.Booking.Domain\\InTime.Booking.Domain.csproj",
+        "projectName": "InTime.Booking.Domain",
+        "projectPath": "C:\\Users\\qayum\\source\\repos\\InTime.BookingApi\\InTime.Booking.Domain\\InTime.Booking.Domain.csproj",
+        "packagesPath": "C:\\Users\\qayum\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\qayum\\source\\repos\\InTime.BookingApi\\InTime.Booking.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\qayum\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -39,6 +116,20 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

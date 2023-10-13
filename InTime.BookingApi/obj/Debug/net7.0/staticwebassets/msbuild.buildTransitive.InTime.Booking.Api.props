@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\InTime.Booking.Api.props" />
+</Project>

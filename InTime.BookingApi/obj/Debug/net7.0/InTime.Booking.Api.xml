@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>InTime.Booking.Api</name>
+    </assembly>
+    <members>
+        <member name="M:InTime.BookingApi.Controllers.WeatherForecastController.Get">
+            <summary>
+            ?????????? ?????? ???????
+            </summary>
+            <param name="anyEnum">??? ?? ?????</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

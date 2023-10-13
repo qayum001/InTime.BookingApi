@@ -7,9 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InTime.Booking.Api", "InTim
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InTime.Booking.Domain", "InTime.Booking.Domain\InTime.Booking.Domain.csproj", "{F3D7BE0A-8A79-43C4-942B-89864DA18AF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InTime.Booking.Application", "InTime.Booking.Application\InTime.Booking.Application.csproj", "{388F484D-11A5-4E3A-A800-CF3F4EFDCCC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InTime.Booking.Application", "InTime.Booking.Application\InTime.Booking.Application.csproj", "{388F484D-11A5-4E3A-A800-CF3F4EFDCCC9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F3D7BE0A-8A79-43C4-942B-89864DA18AF6} = {F3D7BE0A-8A79-43C4-942B-89864DA18AF6}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InTime.Booking.Infrastructure", "InTime.Booking.Infrastructure\InTime.Booking.Infrastructure.csproj", "{1012F85A-15D9-414A-9662-41B81B50082A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InTime.Booking.Infrastructure", "InTime.Booking.Infrastructure\InTime.Booking.Infrastructure.csproj", "{1012F85A-15D9-414A-9662-41B81B50082A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InTime.Booking.Persistence", "InTime.Booking.Persistence\InTime.Booking.Persistence.csproj", "{88270DBB-8471-491F-96BB-DABF1EF912DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +38,10 @@ Global
 		{1012F85A-15D9-414A-9662-41B81B50082A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1012F85A-15D9-414A-9662-41B81B50082A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1012F85A-15D9-414A-9662-41B81B50082A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88270DBB-8471-491F-96BB-DABF1EF912DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88270DBB-8471-491F-96BB-DABF1EF912DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88270DBB-8471-491F-96BB-DABF1EF912DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88270DBB-8471-491F-96BB-DABF1EF912DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

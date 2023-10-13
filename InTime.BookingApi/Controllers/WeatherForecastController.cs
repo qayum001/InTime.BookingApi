@@ -1,3 +1,4 @@
+using InTime.Booking.Api;
 using Microsoft.AspNetCore.Mvc;
 
 namespace InTime.BookingApi.Controllers
@@ -17,7 +18,11 @@ namespace InTime.BookingApi.Controllers
         {
             _logger = logger;
         }
-
+        /// <summary>
+        /// ?????????? ?????? ???????
+        /// </summary>
+        /// <param name="anyEnum">??? ?? ?????</param>
+        /// <returns></returns>
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {

@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using InTime.Booking.Domain.Common;
 
 namespace InTime.Booking.Domain.Entity.User
 {
-    internal class Admin
+    public class Admin : BaseUser
     {
+        public Admin(Guid id, string name, string email, AuthComponent authComponent) : base(id, name, email, authComponent)
+        {
+            this.AddRole(Enum.Role.ADMIN);
+        }
     }
 }

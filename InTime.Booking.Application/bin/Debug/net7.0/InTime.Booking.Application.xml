@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>InTime.Booking.Application</name>
+    </assembly>
+    <members>
+        <member name="F:InTime.Booking.Application.Common.Enum.ScheduleType.group">
+            <summary>
+            group
+            </summary>
+        </member>
+        <member name="F:InTime.Booking.Application.Common.Enum.ScheduleType.professor">
+            <summary>
+            professor
+            </summary>
+        </member>
+        <member name="F:InTime.Booking.Application.Common.Enum.ScheduleType.audience">
+            <summary>
+            audience
+            </summary>
+        </member>
+    </members>
+</doc>

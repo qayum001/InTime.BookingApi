@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "SdQe0P3+qlpdrNWyhegyZkaXLV/cMSKen5VgPg1ZIX2K2R/4b32DoH77CubdYp53VUDHe6PlGH5ofE1Vx8zFPw==",
+  "dgSpecHash": "VffnSpf06XBlQ7qUyO9evS5EJw64N+UPnzz3Ix1uVJRWfP0CXIS5RIdBN/FgPqymlPssoSq0gFqKZD+d6LQWsA==",
   "success": true,
   "projectFilePath": "C:\\Users\\qayum\\source\\repos\\InTime.BookingApi\\InTime.Booking.Domain\\InTime.Booking.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\qayum\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.12\\microsoft.aspnetcore.authentication.jwtbearer.7.0.12.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.2\\microsoft.identitymodel.abstractions.7.0.2.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.0.2\\microsoft.identitymodel.jsonwebtokens.7.0.2.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.2\\microsoft.identitymodel.logging.7.0.2.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.15.1\\microsoft.identitymodel.protocols.6.15.1.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.15.1\\microsoft.identitymodel.protocols.openidconnect.6.15.1.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.2\\microsoft.identitymodel.tokens.7.0.2.nupkg.sha512",
+    "C:\\Users\\qayum\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.0.2\\system.identitymodel.tokens.jwt.7.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
